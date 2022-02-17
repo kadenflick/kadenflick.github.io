@@ -1,0 +1,146 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Kaden Flick"
+
+  # animated text loop
+  occupations:
+    - 'Geographer.'
+    - 'Developer.'
+    - 'Cyclist.'
+    - 'Kayaker.'
+
+  # hero background image
+  bg_image: 'images/layout_red.png'
+  # optional mobile breakpoint background
+  # mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/headshot.jpg'
+  title: 'THIS IS ME'
+  content_list:
+    - content: Hello there, my name is Kaden Flick. I am a geographer and developer currently working as an intern at the Oregon Department of Human Services providing GIS support and working on machine learning and statewide ledger database projects. I am also a fourth-year student at Oregon State University finishing my undergraduate degree in Geography and Geospatial Sciences.
+    - content: Thank you for taking a look around my site! If you have any questions feel free to reach out on [LinkedIn](https://www.linkedin.com/in/kadenflick), [Github](https://github.com/kadenflick), or by [email](mailto:kadenflick@gmail.com)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: #
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: false
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Intern
+      company: Oregon Department of Human Services
+      duration: '2021-Present'
+      content: Providing GIS and situational awareness support for several units and developing various products to support State efforts.
+    - name: Instructor and Lead Guide
+      company: Portland Kayak Company
+      duration: '2015-2019'
+      content: Taught basic kayaking skills, led tours, and developed rental processess while interacting with clients from around the world.
+
+
+############################### Skill #################################
+skill:
+  enable: false
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'React'
+      percentage: '85%'
+
+    - name: 'Detecting'
+      percentage: '93%'
+
+    - name: 'Selling'
+      percentage: '25%'
+
+    - name: 'Yelling'
+      percentage: '100%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: false
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '25'
+
+    - name: 'USELESS ROW OF ICONS'
+      image: 'images/icons/happy.png'
+      count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Planning for Hazard Resilience
+      image: 'images/city.png' # Images need to go in asset folder
+      url: https://storymaps.arcgis.com/stories/82758b3131d9498d8e41e777ce6386e6
+      description:
+        - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap is an annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to adapt their strategies to adapt to these changes. Completed as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
+        - content: Click the button below to view the ArcGIS StoryMap.
+
+    - name: Impacts of Climate Change on Haiti
+      image: 'images/haiti_hillside.jpg'
+      url: https://arcg.is/0LPirO
+      description:
+        - content: “Impacts of Climate Change on Haiti” is an ArcGIS StoryMap covers solutions to and the impact of anthropogenic climate change on Haiti by examining the island nation’s history geography, and demography. Completed as the final project for GEOG 240 – Human Dimensions of Climate Change at Oregon State University as taught by Dr. Hannah Gosnell.
+        - content: Click the button below to view the ArcGIS StoryMap.
+
+    - name: Cascadia Subduction Zone Event Annotated Bibliography
+      image: 'images/Aerial_View_of_Netarts_Bay.JPG'
+      url: 'documents/GEOG350_final_annotated_bibiography_flickkad.pdf'
+      description:
+        - content: “Cascadia Subduction Zone Annotated Bibliography” is an annotated bibliography covering the Cascadia Subduction Zone Event, a magnitude 9.0+ megathrust earthquake that will strike and Pacific Coast of the United States sometime in the future. The goal of the project was to evaluate what the effects of the earthquake would look like across Oregon and to evaluate the various lines of effort being undertaken by Oregon State government entities and others to mitigate and        understand the hazard. Completed as part of GEOG 350 – Geography of Natural Hazards as taught by Dr. Demian Hommel.
+        - content: Click the button below to view the project as a PDF.
+
+    - name: Selecting Coos County Assembly Areas
+      image: 'images/coos_county.png'
+      url: '/documents/GEOG451_AssemblyAreasCriticalBridges_flickkad.pdf'
+      description:
+        - content: “Selecting Coos County Assembly Areas” is a GIS-based project expanding upon the work done by DOGAMI as part of Open-File Report O-13-06, a large analysis of ground motion, ground deformation, tsunami inundation, cosiesmic subsidence, and damage potential maps for the Cascadia Subduction Zones Earthquakes as commissioned during the 2011 Oregon Legislative Assembly. O-13-06 was mostly concerned with areas right on the coast. This project expanded the analysis and assembly area selection inland, using Coos County as a case study. Completed as the final project for GEOG 451 – Planning Principles and Practices for Resilient Communities at Oregon State University as taught by Dr. Jenna Tilt.
+        - content: Click the button below to view the project as a PDF.
+
+    - name: Witham Hill Site Plan
+      image: 'images/willamette_valley.jpg'
+      url: '/documents/GEOG452_SiteReportAndManagementPlan_flickkad.pdf'
+      description:
+        - content: “Witham Hill Site Plan” is a GIS-based project exploring potential land-use scenarios for a mostly vacant lot west of the Witham Hill Natural Area in Corvallis Oregon. By conducting several site surveys and assessments, and by consulting with local stockholders and property owners, as site plan proposal was developed in order to create a robust vision for what the acreage could be used for. Completed as the final project for GEOG 452 – Environmental Assessment at Oregon State University as taught by Dr. Jenna Tilt.
+        - content: Click the button below to view the project as a PDF.
+
+    - name: SVI Automation
+      image: 'images/forest_park.jpg'
+      url: https://github.com/kadenflick/SVI_Automation
+      description:
+        - content: “SVI Automation” is a Python-based project that automates the generation of Social Vulnerability Indexes (SVI) by using the Pandas and ArcPy libraries to preform calculations and output spatial layers and CSV files. The project follows the process developed by the CDC but allows the user to make custom indexes using any dataset. This is an ongoing project developed during my internship at ODHS ORRAI.
+        - content: Click the button below to view the GitHub Repository.
+
+    - name: Utah Grazing Allotments
+      image: 'images/utah.jpg'
+      url: 'documents/GEOG370_atlas_layouts_flickkad.pdf'
+      description:
+        - content: “Utah Grazing Allotments” is a short series of maps showing landcover and landcover change on grazing allotments in Utah. Completed as the final project for GEOG 370 – Cartography at Oregon State University as taught by Dr. Peder Nelson.
+        - content: Click the button below to view the maps as a PDF.
+
+    - name: Oregon Protected Area Land Cover Change
+      image: 'images/gods_thumb.jpg'
+      url: https://github.com/kadenflick/GEOG_462_final_project
+      description:
+        - content: “Oregon Protected Area Land Cover Change” is a Python-based project that looks at land cover change on GAP Status 1 and 2 protected areas in Oregon over a 25-year period. Completed with Kira Minehart as the final project for GEOG 462 – GIScience III Programming for Geospatial Analysis at Oregon State University as taught by Dr. Robert Kennedy.
+        - content: Click the button below to view the GitHub Repository.
+
+    - name: Wildfire in Oregon
+      image: 'images/wildfire.jpeg'
+      url: https://arcg.is/1vmmzK0
+      description:
+        - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people, with a focus on how climate change is exasperating the effects of wildfire on the state’s most vulnerable people. The project is currently in a draft state and will be completed March 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
+        - content: Click the button below to view the GitHub Repository.
