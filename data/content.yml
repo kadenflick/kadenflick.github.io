@@ -142,5 +142,5 @@ portfolio:
       image: 'images/wildfire.jpeg'
       url: https://arcg.is/1vmmzK0
       description:
-        - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people, with a focus on how climate change is exasperating the effects of wildfire on the state’s most vulnerable people. The project is currently in a draft state and will be completed March 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
+        - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people using the 2020 wildfires in Oregon as a case study. The project examines how historic forest management practices and climate change influence wildfire and fire regimes across the state and explores the effect of wildfire in health and the built environment. The project concludes with a series of adaptation and mitigation recommendations based on published literature. Completed in 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
         - content: Click the button below to view the GitHub Repository.
