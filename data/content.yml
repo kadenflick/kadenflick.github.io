@@ -86,7 +86,7 @@ portfolio:
       image: 'images/city.png' # Images need to go in asset folder
       url: https://storymaps.arcgis.com/stories/82758b3131d9498d8e41e777ce6386e6
       description:
-        - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap is an annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to revise their strategies to adapt to these changes. Completed in 2020 as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
+        - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap based annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to revise their strategies to adapt to these changes. Completed in 2020 as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
         - content: Click the button below to view the ArcGIS StoryMap.
 
     - name: Impacts of Climate Change on Haiti
