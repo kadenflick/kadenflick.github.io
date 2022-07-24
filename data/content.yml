@@ -20,7 +20,9 @@ about:
   image: 'images/headshot.jpg'
   title: 'THIS IS ME'
   content_list:
-    - content: Hello there, my name is Kaden Flick. I am a geographer and developer currently working as an Intern at the Oregon Department of Human Services providing GIS support and working on machine learning and statewide ledger database projects. I am also a fourth-year student at Oregon State University finishing my undergraduate degree in Geography and Geospatial Sciences.
+    - content: Hey there, I'm Kaden Flick, currently an Intern at the Oregon Health Authority Public Health Division, Public Drinking Water Services where I am developing a technical report investigating volatile organic compound contamination in public water systems as a result of Oregon's 2020 wildfires. I am also examining the impacts of wildfire on on Oregon's public water systems more generally, with the goal of developing recommendations for operators, first responders, and emergency managers in order to increase resilience and preparedness.
+    - content: I am super interested in the intersection of geography and public health. By applying an equity lens and the many facets of social vulnerability, we can begin to understand how hazards impact people with different access to resources and lived experiences, and better recognize the barriers - structural and otherwise - that reduce adaptive capacity and stand in the way of resilience.
+    - content: I recently graduated Cum Laude from Oregon State University where I earned my bachelors degree in Geography and Geospatial Sciences, with a minor in Computer Science, and a certificate in Geographic Information Systems.
     - content: Thank you for taking a look around my site! If you have any questions feel free to reach out on [LinkedIn](https://www.linkedin.com/in/kadenflick), [Github](https://github.com/kadenflick), or by [email](mailto:kadenflick@gmail.com)!
   button:
     enable: true
@@ -28,7 +30,7 @@ about:
     link: 'documents/Kaden_Flick_Resume.pdf'
     icon: 'fa-download'
 
-###########################3 Experience ##############################
+############################ Experience ##############################
 experience:
   enable: false
   title: 'EXPERIENCE'
