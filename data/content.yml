@@ -145,4 +145,12 @@ portfolio:
       url: https://arcg.is/1vmmzK0
       description:
         - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people using the 2020 wildfires in Oregon as a case study. The project examines how historic forest management practices and climate change influence wildfire and fire regimes across the state and explores the effect of wildfire in health and the built environment. The project concludes with a series of adaptation and mitigation recommendations based on published literature. Completed in 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
-        - content: Click the button below to view the GitHub Repository.
+        - content: Click the button below to view the ArcGIS StoryMap.
+  
+  - name: 2020 Oregon Public Water System VOC Sampling
+      image: 'images/USACE_Detroit_Dam_Oregon.jpg'
+      url: 
+      description:
+        - content: “2020 Oregon Public Water System VOC Sampling” is a series of products describing the extent of VOC contamination in drinking water systems impacted by Oregon’s 2020 wildfires and summarizes the actions taken by OHA Drinking Water Services to address the public health issue. Products for this project include an ArcGIS StoryMap, ArcGIS Web Map, ArcGIS Experience, and a technical report. The project will be completed Winter 2022.
+        - content: A link to the project will be added to this page once materials are available to the pubic.
+        
