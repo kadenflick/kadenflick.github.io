@@ -85,14 +85,14 @@ portfolio:
   portfolio_list:
     - name: Planning for Hazard Resilience
       image: 'images/city.png' # Images need to go in asset folder
-      url: https://storymaps.arcgis.com/stories/82758b3131d9498d8e41e777ce6386e6
+      url: https://arcg.is/1fzGj00
       description:
         - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap based annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to revise their strategies to adapt to these changes. Completed in 2020 as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
         - content: Click the button below to view the ArcGIS StoryMap.
 
     - name: Impacts of Climate Change on Haiti
       image: 'images/haiti_hillside.jpg'
-      url: https://arcg.is/0LPirO
+      url: https://arcg.is/0DSvff
       description:
         - content: “Impacts of Climate Change on Haiti” is an ArcGIS StoryMap that covers solutions to and the impact of anthropogenic climate change on Haiti by examining the island nation’s history, geography, and demography. Completed in 2021 as the final project for GEOG 240 – Human Dimensions of Climate Change at Oregon State University as taught by Dr. Hannah Gosnell.
         - content: Click the button below to view the ArcGIS StoryMap.
@@ -141,7 +141,7 @@ portfolio:
 
     - name: Wildfire in Oregon
       image: 'images/wildfire.jpeg'
-      url: https://arcg.is/1vmmzK0
+      url: https://arcg.is/1Sq9P9
       description:
         - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people using the 2020 wildfires in Oregon as a case study. The project examines how historic forest management practices and climate change influence wildfire and fire regimes across the state and explores the effect of wildfire in health and the built environment. The project concludes with a series of adaptation and mitigation recommendations based on published literature. Completed in 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
         - content: Click the button below to view the ArcGIS StoryMap.
