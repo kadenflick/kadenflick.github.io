@@ -84,7 +84,7 @@ portfolio:
   title: 'MY WORK'
   portfolio_list:
     - name: FlickTools
-      image:
+      image: 'images/Autumn_Stream_(15496065108)_adjusted.jpg'
       url: https://github.com/kadenflick/FlickTools
       description:
         - content: FlickTools is a Python toolbox for use with ArcGIS Pro that I developed to expand the default toolset that comes with ArcGIS Pro and make my workflows more efficient. It leverages Python and the Arcpy library to create geoprocessing tools that are organized into an easily maintainable and expandable format.
