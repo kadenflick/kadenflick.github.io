@@ -20,7 +20,7 @@ about:
   image: 'images/headshot.jpg'
   title: 'THIS IS ME'
   content_list:
-    - content: Hey there, I'm Kaden Flick, currently a GIS Technician with Oregon Department of forestry working on updating Oregon’s hydrographic dataset to fulfil the requirements of the 2022 Private Forest Accord. In December 2022 I completed an internship with Oregon Health Authority where I developed a technical report and several other products investigating volatile organic compound contamination in public water systems as a result of Oregon's 2020 wildfires and lessons learned from the response to that disaster. You can [view that project here](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/DRINKINGWATER/PREPAREDNESS/Pages/emergency.aspx#wildfires) if you are interested in the impacts of wildfire.
+    - content: Hey there, I'm Kaden Flick, currently a GIS Technician with Oregon Department of forestry working on updating Oregon’s hydrographic dataset to fulfil the requirements of the 2022 Private Forest Accord. In December 2022 I completed an internship with Oregon Health Authority where I developed a technical report and several other products investigating volatile organic compound contamination in public water systems as a result of Oregon's 2020 wildfires and lessons learned from the response to that disaster. You can [view that project here](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/DRINKINGWATER/PREPAREDNESS/Pages/emergency.aspx#wildfires) if you are interested in the impacts of wildfire on drinking water systems.
     - content: During my time at Oregon State University, where I graduated Cum Laude in 2022 with a B.S. in Geography and Geospatial Sciences, a minor in Computer Science, and a certificate in Geographic Information Systems, I became super interested in the intersection of geography and public health. By applying an equity lens and the many facets of social vulnerability, we can begin to understand how hazards impact people with different access to resources and lived experiences, and better recognize the barriers - structural and otherwise - that reduce adaptive capacity and stand in the way of resilience.
     - content: Thank you for taking a look around my site! If you have any questions feel free to reach out on [LinkedIn](https://www.linkedin.com/in/kadenflick), [Github](https://github.com/kadenflick), or by [email](mailto:kadenflick@gmail.com)!
   button:
@@ -83,26 +83,25 @@ portfolio:
   enable: true
   title: 'MY WORK'
   portfolio_list:
-    - name: Planning for Hazard Resilience
-      image: 'images/city.png' # Images need to go in asset folder
-      url: https://arcg.is/1fzGj00
+    - name: FlickTools
+      image:
+      url: https://github.com/kadenflick/FlickTools
       description:
-        - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap based annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to revise their strategies to adapt to these changes. Completed in 2020 as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
-        - content: Click the button below to view the ArcGIS StoryMap.
+        - content: FlickTools is a Python toolbox for use with ArcGIS Pro that I developed to expand the default toolset that comes with ArcGIS Pro and make my workflows more efficient. It leverages Python and the Arcpy library to create geoprocessing tools that are organized into an easily maintainable and expandable format.
+  
+    - name: 2020 Oregon Public Water System VOC Sampling
+      image: 'images/USACE_Detroit_Dam_Oregon.jpg'
+      url: https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/DRINKINGWATER/PREPAREDNESS/Pages/emergency.aspx#wildfires
+      description:
+        - content: “2020 Oregon Public Water System VOC Sampling” is a series of products describing the extent of VOC contamination in drinking water systems impacted by Oregon’s 2020 wildfires and summarizes the actions taken by OHA Drinking Water Services to mitigate the public health impacts. It also includes a collection of lessons learned from the 2020 wildfire response and resources needed for future wildfire response that were collected from operators of impacted water systems, emergency management agencies, and consultants that contributed to the 2020 wildfire response. Products for this project include an ArcGIS StoryMap, ArcGIS Web Map, ArcGIS Experience, and a technical report.
+        - content: A link to the project will be added to this page once materials are available to the pubic.
 
-    - name: Impacts of Climate Change on Haiti
-      image: 'images/haiti_hillside.jpg'
-      url: https://arcg.is/0DSvff
+    - name: Wildfire in Oregon
+      image: 'images/wildfire.jpeg'
+      url: https://arcg.is/1Sq9P9
       description:
-        - content: “Impacts of Climate Change on Haiti” is an ArcGIS StoryMap that covers solutions to and the impact of anthropogenic climate change on Haiti by examining the island nation’s history, geography, and demography. Completed in 2021 as the final project for GEOG 240 – Human Dimensions of Climate Change at Oregon State University as taught by Dr. Hannah Gosnell.
+        - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people using the 2020 wildfires in Oregon as a case study. The project examines how historic forest management practices and climate change influence wildfire and fire regimes across the state and explores the effect of wildfire in health and the built environment. The project concludes with a series of adaptation and mitigation recommendations based on published literature. Completed in 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
         - content: Click the button below to view the ArcGIS StoryMap.
-
-    - name: Cascadia Subduction Zone Event Annotated Bibliography
-      image: 'images/Aerial_View_of_Netarts_Bay.JPG'
-      url: 'documents/GEOG350_final_annotated_bibiography_flickkad.pdf'
-      description:
-        - content: “Cascadia Subduction Zone Annotated Bibliography” is an annotated bibliography covering the Cascadia Subduction Zone Event, a magnitude 9.0+ megathrust earthquake that will strike the Pacific Coast of the United States sometime in the future. The goal of the project was to examine what the effects of the earthquake would look like across Oregon and to evaluate the various lines of effort being undertaken by Oregon State government entities and others to mitigate and understand the hazard. Completed in 2021 as part of GEOG 350 – Geography of Natural Hazards as taught by Dr. Demian Hommel.
-        - content: Click the button below to view the project as a PDF.
 
     - name: Selecting Coos County Assembly Areas
       image: 'images/coos_county.png'
@@ -132,23 +131,30 @@ portfolio:
         - content: “Utah Grazing Allotments” is a short series of maps showing landcover and landcover change on grazing allotments in Utah. Completed in 2020 as the final project for GEOG 370 – Cartography at Oregon State University as taught by Dr. Peder Nelson.
         - content: Click the button below to view the maps as a PDF.
 
+    - name: Cascadia Subduction Zone Event Annotated Bibliography
+      image: 'images/Aerial_View_of_Netarts_Bay.JPG'
+      url: 'documents/GEOG350_final_annotated_bibiography_flickkad.pdf'
+      description:
+        - content: “Cascadia Subduction Zone Annotated Bibliography” is an annotated bibliography covering the Cascadia Subduction Zone Event, a magnitude 9.0+ megathrust earthquake that will strike the Pacific Coast of the United States sometime in the future. The goal of the project was to examine what the effects of the earthquake would look like across Oregon and to evaluate the various lines of effort being undertaken by Oregon State government entities and others to mitigate and understand the hazard. Completed in 2021 as part of GEOG 350 – Geography of Natural Hazards as taught by Dr. Demian Hommel.
+        - content: Click the button below to view the project as a PDF.
+
+    - name: Impacts of Climate Change on Haiti
+      image: 'images/haiti_hillside.jpg'
+      url: https://arcg.is/0DSvff
+      description:
+        - content: “Impacts of Climate Change on Haiti” is an ArcGIS StoryMap that covers solutions to and the impact of anthropogenic climate change on Haiti by examining the island nation’s history, geography, and demography. Completed in 2021 as the final project for GEOG 240 – Human Dimensions of Climate Change at Oregon State University as taught by Dr. Hannah Gosnell.
+        - content: Click the button below to view the ArcGIS StoryMap.
+
+    - name: Planning for Hazard Resilience
+      image: 'images/city.png' # Images need to go in asset folder
+      url: https://arcg.is/1fzGj00
+      description:
+        - content: “Planning for Hazard Resilience” is an ArcGIS StoryMap based annotated bibliography examining the impact of anthropogenic climate change on the various hazards that impact people across the planet and how emergency managers and policy leaders need to revise their strategies to adapt to these changes. Completed in 2020 as the final project for GEOG 331 – Population, Consumption, and Environment at Oregon State University as taught by Dr. Demian Hommel.
+        - content: Click the button below to view the ArcGIS StoryMap.
+
     - name: Oregon Protected Area Land Cover Change
       image: 'images/gods_thumb.jpg'
       url: https://github.com/kadenflick/GEOG_462_final_project
       description:
         - content: “Oregon Protected Area Land Cover Change” is a Python-based project that looks at land cover change on GAP Status 1 and 2 protected areas in Oregon over a 25-year period. Completed in 2021 with Kira Minehart as the final project for GEOG 462 – GIScience III Programming for Geospatial Analysis at Oregon State University as taught by Dr. Robert Kennedy.
         - content: Click the button below to view the GitHub Repository.
-
-    - name: Wildfire in Oregon
-      image: 'images/wildfire.jpeg'
-      url: https://arcg.is/1Sq9P9
-      description:
-        - content: “Wildfire in Oregon” is an ArcGIS StoryMap exploring the impact of wildfire on Oregon’s land and people using the 2020 wildfires in Oregon as a case study. The project examines how historic forest management practices and climate change influence wildfire and fire regimes across the state and explores the effect of wildfire in health and the built environment. The project concludes with a series of adaptation and mitigation recommendations based on published literature. Completed in 2022 as the final project for GEOG 332 – Climate and Health at Oregon State University as taught by Dr. Annie Hommel.
-        - content: Click the button below to view the ArcGIS StoryMap.
-
-    - name: 2020 Oregon Public Water System VOC Sampling
-      image: 'images/USACE_Detroit_Dam_Oregon.jpg'
-      url: https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/DRINKINGWATER/PREPAREDNESS/Pages/emergency.aspx#wildfires
-      description:
-        - content: “2020 Oregon Public Water System VOC Sampling” is a series of products describing the extent of VOC contamination in drinking water systems impacted by Oregon’s 2020 wildfires and summarizes the actions taken by OHA Drinking Water Services to mitigate the public health impacts. It also includes a collection of lessons learned from the 2020 wildfire response and resources needed for future wildfire response that were collected from operators of impacted water systems, emergency management agencies, and consultants that contributed to the 2020 wildfire response. Products for this project include an ArcGIS StoryMap, ArcGIS Web Map, ArcGIS Experience, and a technical report.
-        - content: A link to the project will be added to this page once materials are available to the pubic.
