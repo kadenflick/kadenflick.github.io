@@ -118,7 +118,7 @@ portfolio:
         - content: “Witham Hill Site Plan” is a GIS-based project exploring potential land-use scenarios for a mostly vacant lot west of the Witham Hill Natural Area in Corvallis, Oregon. By conducting several site surveys and assessments, and by consulting with local stockholders and property owners, a site plan proposal was developed in order to create a robust vision of what the acreage could be used for. Completed in 2021 as the final project for GEOG 452 – Environmental Assessment at Oregon State University as taught by Dr. Jenna Tilt.
         - content: Click the button below to view the project as a PDF.
 
-    - name: SVI Automation
+    - name: SVITools
       image: 'images/forest_park.jpg'
       url: https://github.com/kadenflick/SVI_Automation
       description:
